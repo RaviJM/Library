@@ -1,0 +1,95 @@
+:root{
+    --add-btn-width: 6rem;
+    --add-btn-height: 3rem;
+}
+
+
+body{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+.title-container{
+    background-image: linear-gradient(to bottom, rgb(164, 255, 225), rgb(255, 255, 255))
+}
+
+.add-book-btn{
+    display: block;
+    margin-left: calc(100vw - calc(1.2*var(--add-btn-width)));
+    width: var(--add-btn-width);
+    height: var(--add-btn-height);
+    border-radius: 1rem;
+    border-width: 4px;
+    font-size: 1rem;
+    background-color:rgb(79, 209, 79);
+}
+
+.book-add-form{
+    display: none;
+    width: 20rem;
+    margin: auto;
+}
+
+form{
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-style : solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 1.4rem;
+    font-size: 1.6rem;
+}
+
+.cross-button-container{
+    text-align: end;
+}
+
+.cross-button{
+    font-size: 1.2rem;
+}
+
+.submit-btn-container{
+    text-align: center;
+}
+
+.submit-btn{
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+    background-color:rgb(37, 243, 99);
+    border-radius: 0.5rem;
+}
+
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32vw, 1fr));
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    padding: 0.3rem;
+}
+
+.card{
+    border: solid 2px;
+    border-radius: 0.4rem;
+    padding: 0.6rem 2.5rem;
+    padding-right: 0.6rem;
+    font-size: 1.2rem;
+}
+
+.card-delete-btn-container{
+    text-align: right;
+}
+
+.card-delete-btn{
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.card-read-btn-container{
+    text-align: right;
+}
+
